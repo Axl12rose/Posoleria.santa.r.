@@ -1,0 +1,171 @@
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) { /* Media query para dispositivos con ancho de pantalla máximo de 600px*/
+    body {
+        font-size: 14px; /*Tamaño de fuente del cuerpo del documento*/
+        max-width:100% ; /* Ancho máximo del documento*/
+    }
+
+    h1 {
+        font-size: 24px; /* Tamaño de fuente para los títulos h1*/
+    }
+
+    h2 {
+        font-size: 20px; /* Tamaño de fuente para los títulos h2*/
+    }
+
+    #menu {
+        flex-direction: column; /* Dirección de la flexbox en columna (elementos apilados verticalmente)*/
+
+        margin-top: 14px; /* Margen superior del elemento*/
+        
+    }
+    
+
+    .item {
+        width: 100%; /* Ancho del elemento*/
+        max-width: 83%; /* Ancho máximo del elemento*/
+        margin-bottom: 20px; /* Margen inferior del elemento*/
+       
+    }
+
+    .item img {
+        width: 50%; /* Ancho de la imagen*/
+        height: auto; /* Altura automática de la imagen*/
+    }
+ 
+}
+/* Estilos para dispositivos de pantalla más grandes */
+@media (min-width: 601px) { /* Media query para dispositivos con ancho de pantalla mínimo de 601px*/
+    h1 {
+        font-size: 36px; /* Tamaño de fuente para los títulos h1*/
+    }
+
+    h2 {
+        font-size: 30px; /* Tamaño de fuente para los títulos h2*/
+    }
+}
+
+nav {
+background-color: #d63f54; /* Color de fondo de la barra de navegación (navbar)*/
+height: 50px; /* Altura de la barra de navegación*/
+text-align: right; /* Alinea el texto a la derecha */
+}
+
+ul {
+list-style-type: none; /* Elimina los marcadores de lista*/
+margin: 0;
+padding: 0;
+}
+
+li {
+display: inline-block; /* Cambia 'float: left;' por 'display: inline-block;' */
+}
+
+li a {
+display: block;
+color: #050505; /* Color del texto del enlace*/
+text-align: center;
+padding: 14px 16px; /* Espacio interno del enlace*/
+text-decoration: none; /* Elimina la subraya del enlace*/
+font-weight: bold; /* Negrita del texto del enlace*/
+}
+
+li a:hover {
+background-color: #ffffffce; /* Color de fondo al pasar el cursor sobre el enlace*/
+}
+
+
+section {
+padding: 20px; /* Espaciado interno del elemento*/
+margin-top: 20px; /* Margen superior del elemento*/
+}
+
+
+
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto del cuerpo del documento*/
+    background-color: #e0d387; /* Color de fondo del cuerpo del documento*/
+    margin: 0; /* Elimina los márgenes exteriores del documento*/
+    padding: 0; /* Elimina los espaciados internos del documento*/
+}
+
+h1 {
+    text-align: center; /* Alineación del texto al centro*/
+    color: #333; /* Color del texto*/
+    padding: 20px; /* Espaciado interno del elemento*/
+}
+
+h2 {
+    text-align: center; /* Alineación del texto al centro*/
+    color: #333; /* Color del texto*/
+    padding: 20px; /* Espaciado interno del elemento*/
+}
+#menu {
+    display: flex; /* Crea una flexbox*/
+   
+    justify-content: center; /* Alinea los elementos al centro horizontalmente*/
+    align-items: flex-start; /* Alinea los elementos en la parte superior*/
+    margin: 20px auto; /* Margen exterior del elemento (arriba y abajo: 20px, izquierda y derecha: automático)*/
+    max-width: 900px; /* Ancho máximo del elemento*/
+}
+
+.item {
+    background-color: #f8f3f3ec; /* Color de fondo del elemento*/
+    border-radius: 10px; /* Radio de los bordes del elemento*/
+    padding: 20px; /* Espaciado interno del elemento*/
+    margin: 10px; /* Margen exterior del elemento*/
+    width: 100%; /* Ancho del elemento*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra del elemento*/
+    transition: 0.3s; /* Transición de propiedades durante 0.3 segundos*/
+}
+
+.item:hover {
+    transform: translateY(-5px); /* Desplaza el elemento hacia arriba 5px*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del elemento al pasar el cursor sobre él*/
+}
+
+.item h3 {
+    color: black; /* Color del texto*/
+    margin-bottom: 10px; /* Margen inferior del elemento*/
+}
+
+.item img {
+    width: 100%; /* Ancho de la imagen*/
+    border-radius: 8px; /* Radio de los bordes de la imagen*/
+    margin-bottom: 10px; /* Margen inferior del elemento*/
+}
+
+.item p {
+    color: black; /* Color del texto*/
+}
+
+.price {
+    color: #55a049; /* Color del texto del precio*/
+    font-weight: bold; /* Negrita del texto*/
+    margin-top: 10px; /* Margen superior del elemento*/
+}
+
+
+#tostada{
+ margin: 0px 606px 10px 9px; /* Margen del elemento*/
+}
+
+#tacos{
+ margin: 7px 9px 0px 9px; /* Margen del elemento*/
+}
+#chalupa{
+ margin: 7px 0px 0px 9px; /* Margen del elemento*/
+}
+
+#grande{
+ margin: 0px 606px 10px 9px; /* Margen del elemento*/
+}
+
+@media (max-width: 600px) { /* Media query para dispositivos con ancho de pantalla máximo de 600px*/
+nav{
+ margin:0;
+ text-align: center; /* Alineación del texto al centro*/
+ font-size: 15px; /* Tamaño de fuente del texto*/
+ align-items: center; /* Alinea los elementos del centro verticalmente*/
+}
+}

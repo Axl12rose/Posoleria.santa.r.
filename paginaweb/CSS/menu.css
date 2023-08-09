@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif; /* Establece la fuente del texto */
+  background-color: #e0d387; /* Establece el color de fondo */
+  margin: 0; /* Elimina los márgenes externos */
+  padding: 0; /* Elimina los márgenes internos */
+}
+    
+nav {/*Barra de navegacion*/
+  background-color: #d63f54; /* Establece el color de fondo de la barra de navegación */
+  height: 50px; /* Establece la altura de la barra de navegación */
+  text-align: right; /* Alinea el texto a la derecha */
+  font-family: Arial, sans-serif; /* Establece la fuente del texto */
+}
+
+ul {
+  list-style-type: none; /* Quita los puntos de la lista */
+  margin: 0; /* Elimina los márgenes externos */
+  padding: 0; /* Elimina los márgenes internos */
+}
+
+li {
+  display: inline-block; /* Cambia 'float: left;' por 'display: inline-block;' */
+}
+
+li a {
+  display: block; /* Hace que el enlace ocupe todo el ancho del elemento li */
+  color: #050505; /* Establece el color del texto */
+  text-align: center; /* Centra el texto */
+  padding: 14px 16px; /* Establece el relleno superior e inferior y el relleno izquierdo y derecho */
+  text-decoration: none; /* Quita la subrayado del enlace */
+  font-weight: bold; /* Establece el peso de la fuente como negrita */
+}
+
+li a:hover {
+  background-color: #ffffffce; /* Cambia el color de fondo al pasar el cursor sobre el enlace */
+}
+
+section {
+  padding: 20px; /* Establece el relleno interno del elemento section */
+  margin-top: 20px; /* Establece el margen superior del elemento section */
+}
+
+
+
+/* Estilos para el mapa de ubicacion */
+.mapa{
+    padding: 2em; /* Espacio interno del mapa */
+    width: 70%;  /* Ancho del mapa */
+    margin: 0 175PX auto; /* Alineacion del mapa */
+  
+}
+
+/* Estilos para el titulo de la seccion de mapa */
+.map{
+    text-align: center; /* Alinea el texto al centro */
+}
+
+
+.facebook{
+    text-align: center;
+}
+
+

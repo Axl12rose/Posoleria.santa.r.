@@ -1,0 +1,135 @@
+body{
+    background-color: #e0d387;/* Establece el fondo de la pagina en color beige */
+}
+
+/* Estilos para el logo */
+.logo1{
+scale:1.2 ;
+    Width: 20%; /* Ancho del logo */
+    height:20%; /* Altura del logo */
+    padding: 70px 70PX; /* Espaciado interno del logo */
+    margin: auto; /* Centra el logo horizontalmente */
+    overflow:hidden; /*todo el contenido que sale del contenedor se oculte*/
+    display: block;/*donde se vera el elemeto dentro de la pantalla*/
+}
+
+
+
+
+nav {/*Barra de navegacion*/
+  background-color: #d63f54;
+  height: 50px;
+  text-align: right; /* Alinea el texto a la derecha */
+  font-family: Arial, sans-serif;
+}
+ul {
+  list-style-type: none; /* Quita los puntos de la lista */
+  margin: 0; /* Elimina los márgenes externos */
+  padding: 0; /* Elimina los márgenes internos */
+}
+
+li {
+  display: inline-block; /* Cambia 'float: left;' por 'display: inline-block;' */
+}
+
+li a {
+  display: block; /* Hace que el enlace ocupe todo el ancho del elemento li */
+  color: #050505; /* Establece el color del texto */
+  text-align: center; /* Centra el texto */
+  padding: 14px 16px; /* Establece el relleno superior e inferior y el relleno izquierdo y derecho */
+  text-decoration: none; /* Quita la subrayado del enlace */
+  font-weight: bold; /* Establece el peso de la fuente como negrita */
+}
+
+li a:hover {
+  background-color: #ffffff; /* Cambia el color de fondo al pasar el cursor sobre el enlace */
+}
+
+section {
+  padding: 20px; /* Establece el relleno interno del elemento section */
+  margin-top: 20px; /* Establece el margen superior del elemento section */
+}
+
+body {
+  background-color: #e0d387; /* Establece el color de fondo de la página */
+  margin: 0; /* Elimina los márgenes externos del body */
+  padding: 0; /* Elimina los márgenes internos del body */
+}
+
+
+/* Estilos para la seccion de frases */
+.frace{
+text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilos para la seccion de informacion */
+.informacion {
+	display: flex; /*Establece la visualizacion del elementos de la seccion de informacion como un flexbox*/
+	flex-wrap: wrap; /*Permite que los elementos de la seccion se puedan ajustar en varias lineas*/
+	justify-content: center; /*Centra los elementos en el eje horizontal del contenedor padre*/
+	margin: 40px 0; /*Establece un margen superior e inferior de 40px para la seccion de informacion*/
+}
+
+.informacion div {
+	flex: 1; /*Permite que los elementos de la seccion de informacion se ajusten al tamaño del contenedor y se espacien uniformemente*/
+	max-width: 400px; /*Establece un ancho maximo de 400px para los elementos de la seccion*/
+	margin: 20px; /*Establece un margen de 20px para los elementos de la seccion*/
+	text-align: center; /*Centra el contenido del elemento de la seccion*/
+}
+
+.informacion h2 {
+	font-size: 36px; /*Establece un tamaño de letra de 36px para los encabezados de la seccion*/
+	margin-bottom: 20px; /*Establece un margen inferior de 20px para los encabezados de la seccion*/
+}
+
+.informacion p {
+	font-size: 18px; /*Establece un tamaño de letra de 18px para el texto de la seccion*/
+	line-height: 1.5; /*Establece un espaciado entre lineas de 1.5 para mejorar la legibilidad del texto*/
+}
+
+/* Estilos para la seccion de Nosotros */
+.nosotros{
+    border-style: solid; /*Establece un estilo de borde solido para la seccion de Nosotros*/
+	border-color: rgba(145, 69, 25, 0.712);
+}
+
+/* Estilos para la seccion de Especialidad */
+.especialidad{
+    border-style: solid; /*Establece un estilo de borde solido para la seccion de Especialidad*/
+	border-color: rgba(145, 69, 25, 0.712);
+}
+
+/* Estilos para la galeria de imagenes */
+.galeria {
+	text-align: center; /*Centra el contenido de la galeria de imagenes en el eje horizontal*/
+	margin: 40px 0; /*Establece un margen superior e inferior de 40px para la galeria*/
+}
+
+.galeria h2 {
+	font-size: 36px; /*Establece un tamaño de letra de 36px para los encabezados de la galeria*/
+	margin-bottom: 20px; /*Establece un margen inferior de 20px para los encabezados de la galeria*/
+}
+
+.galeria div {
+	display: flex; /*Establece la visualizacion del contenedor de imagenes como un flexbox*/
+	flex-wrap: wrap; /*Permite que las imagenes se ajusten en varias lineas*/
+	justify-content: center; /*Centra las imagenes en el eje horizontal del contenedor padre*/
+}
+
+.galeria img {
+	width: 250px; /* Ancho de las imagenes de la galeria */
+	height: 200px; /* Altura de las imagenes de la galeria */
+	object-fit: cover; /* Escala la imagen para que cubra la caja contenedora */
+	margin: 10px; /* Espaciado entre las imagenes */
+	border-radius: 5px; /* Estilo de borde redondeado para las imagenes */
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.logo img{
+  width: 100px;
+  margin-right: 10px;
+}

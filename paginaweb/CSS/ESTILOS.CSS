@@ -1,0 +1,153 @@
+
+body{
+    background-color: #e0d387;/* Establece el fondo de la pagina en color beige */
+}
+
+form{/*ESTILOS PARA EL FORMULARIO*/
+    width: 50%;/*ancho del formulario del contenedor principal*/
+    margin: 0 auto;/*centrar el formulario horizontalmente*/
+    text-align: center;/*centar el formulario el contenido en el eje horizontal*/
+    
+}
+
+label{/*estilos para la etiqueta label*/
+   
+    display: inline-block;/*etiquetas una junto a la otra*/
+    width: 20%;/*ancho*/
+    text-align: right;/*alineado del texto de la etiqueta a la derecha*/
+    margin-right: 10px;/*espacio ebtre las etiquetas y el campo correspondiente*/
+
+    
+}
+
+input[type="text"], input[type="email"]{/* estilo en especial para los campos de texto y correo electronico*/
+    width: 60%;/*ancho del campo de texto*/
+    padding: 10px;/*espacio interno del campo*/
+    border-radius: 5px;/**/
+    margin-bottom: 10px;/**/
+   
+  
+}
+
+input[type="submit"]{/*estilos para el boton de enviar el formulario*/
+    
+    background-color: #e71616;/*color del boton*/
+    color: white;/*color del texto del boton*/
+    padding: 10px 20px;/*relleno interno del boton(arriba, abajo y izquierda, derecha )*/
+    border-radius: 5px;/*los bordes del boton*/
+    border: none;/*elimina el borde del boton*/
+    cursor: pointer;/*cambia el puntero de la flecha cuando se pone arriba el cursor*/
+}
+
+input[type="submit"]:hover{/*estilos cuando pasa el cursor arriba del boton*/
+    background-color: #e70c0c;/*cambio de color de boton*/
+}
+
+p{/*estilos para la etiqueta p*/
+    text-align: center;/*alineado del texto de la etiqueta al centro*/
+    margin-top: 20px;/*dar margen en la parte de arriba del formulario*/
+    font-size: 18px;/*tamaño de letra */
+    font-weight: bold;/*estilo de la letra en negro*/
+}
+
+.facebook{
+    margin-top: 10px;/*dar margen en la parte de arriba del formulario*/
+    text-align: center;/*alineado del texto de la etiqueta al centro*/
+}
+
+li{/*estilos para la etiqueta de direccionamiento a facebook*/
+    display: inline-block;/*etiquetas una junto a la otra*/
+    margin: 0 10px;/*margen de las letras facebook*/
+}
+
+a{/*estilos para la etiqueta de direccionamiento a facebook*/
+    color: #f31009;/*color de la etiqueta facebook*/
+    text-decoration: none;/**/
+}
+
+
+
+h1{/*estilos para la etiqueta h1*/
+    text-align: center;/*alineado al centro*/
+    margin-top: 40px;/*margen*/
+}
+
+
+
+
+
+
+
+nav {/*Barra de navegacion*/
+    background-color: #d63f54; /* Color de fondo */
+    height: 50px; /* Alto de la barra de navegación */
+    text-align: right; /* Alinea el texto a la derecha */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+  }
+  
+  ul {
+    list-style-type: none; /* Quita los puntos de viñeta de la lista */
+    margin: 0; /* Elimina los márgenes */
+    padding: 0; /* Elimina el relleno */
+  }
+  
+  li {
+    display: inline-block; /* Cambia 'float: left;' por 'display: inline-block;' */
+  }
+  
+  li a {
+    display: block; /* Convierte los enlaces en elementos de bloque */
+    color: #050505; /* Color del texto */
+    text-align: center; /* Alinea el texto al centro */
+    padding: 14px 16px; /* Espaciado en el interior del enlace */
+    text-decoration: none; /* Quita la decoración de subrayado del enlace */
+    font-weight: bold; /* Establece la negrita en el texto del enlace */
+  }
+  
+  li a:hover {
+    background-color: #ffffff; /* Cambia el color de fondo del enlace al pasar el mouse por encima */
+  }
+  
+  
+  section {
+    padding: 20px; /* Espaciado interior de la sección */
+    margin-top: 20px; /* Margen superior de la sección */
+  }
+  
+  
+  
+  body {
+    background-color: #e0d387; /* Color de fondo del cuerpo del documento */
+    margin: 0; /* Elimina los márgenes */
+    padding: 0; /* Elimina el relleno */
+  }
+  
+  
+  
+ 
+
+
+  @media (max-width: 600px) {
+    /* Modificaciones para dispositivos móviles */
+    form {
+        width: 90%; /* Ancho del formulario */
+    }
+
+    label {
+        display: block; /* Convierte las etiquetas en elementos de bloque */
+        width: 100%; /* Ancho completo de la etiqueta */
+        text-align: left; /* Alinea el texto a la izquierda */
+        margin-right: 0; /* Elimina el margen derecho */
+    }
+
+    nav {
+        margin:0; /* Elimina los márgenes de la barra de navegación */
+        text-align: center; /* Alinea el texto al centro */
+        font-size: 12px; /* Tamaño de fuente de la barra de navegación */
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 88%; /* Ancho de los campos de texto */
+    }
+}

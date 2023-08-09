@@ -1,0 +1,302 @@
+
+<!DOCTYPE html> <!-- Declaracion del tipo de documento -->
+<html lang="es"> <!-- Inicio del elemento html con atributo en español -->
+<head> <!-- Inicio del encabezado del documento -->
+    <meta charset="UTF-8"> <!-- Especificacion de la codificacion de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Especificacion de la compatibilidad con Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuracion de la vista en dispositivos moviles -->
+    <link rel="stylesheet" href="../CSS/menu.css"> <!-- Enlace al archivo CSS externo -->
+	<link rel="shortcut icon" href="../Imagenes/logooo 2023-05-26 at 12.37.07 PM.jpeg" type="image/x-icon"> <!-- Enlace al icono de la pagina-->
+
+    <title>Menu</title> <!-- Titulo de la pagina -->
+
+    <style type="text/css"> /* Estilos css internos */
+		
+.container {/* Establece el ancho maximo del contenedor en 800px */
+	border-style: solid;
+	border-color: rgba(145, 69, 25, 0.712);
+	
+	max-width: 800px;
+	margin: auto; /* Centra el contenedor horizontalmente */
+	padding: 20px; /* Añade un espacio de relleno de 20px alrededor del contenido del contenedor */
+}
+
+/* Centra el texto del encabezado (h1) */
+h1 {
+
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 20px; /* Añade un margen inferior de 20px al encabezado */
+}
+
+/* Establece el estilo de los elementos del menu */
+.menu-item {
+	border-style: solid;
+	border-color: rgba(145, 69, 25, 0.712);
+	display: flex; /* Utiliza un modelo de visualizacion flexible para los elementos del menu */
+	margin-bottom: 20px; /* Añade un margen inferior de 20px a cada elemento del menu */
+}
+
+/* Establece el estilo de las imagenes dentro de los elementos del menu */
+.menu-item img {
+
+	
+	width: 200px;/*ancho del elemento*/
+	height: 150px;/*altura*/
+	object-fit: cover; /* Ajusta la imagen para que ocupe todo el espacio disponible */
+	margin-right: 20px; /* Añade un margen derecho de 20px a las imagenes */
+	border-radius: 5px; /* Agrega esquinas redondeadas a las imagenes */
+}
+
+/* Establece el estilo de los encabezados secundarios (h2) dentro de los elementos del menu */
+.menu-item h2 {
+	
+	font-size: 24px;
+	margin-bottom: 10px; /* Añade un margen inferior de 10px al encabezado secundario */
+}
+
+/* Establece el estilo de los parrafos (p) dentro de los elementos del menu */
+.menu-item p {
+	
+	font-size: 18px;
+	line-height: 1.5; /* Establece la altura de linea a 1.5 veces el tamaño de la fuente */
+	margin-bottom: 10px; /* Añade un margen inferior de 10px al parrafo */
+}
+
+/* Establece el estilo de los elementos de texto resaltados dentro de los elementos del menu */
+.menu-item span {
+
+	font-size: 20px;
+	color: #f20505; /* Establece el color de texto a un tono dorado */
+	font-weight: bold; /* Establece el peso de la fuente en negrita */
+}
+
+/* Establece el estilo del precio */
+.price {
+
+	
+    --------------border-style: solid; /*Establece un estilo de borde solido para la seccion de Nosotros*/
+
+	margin-left: auto; /* Mueve el precio hacia la parte derecha */
+	font-size: 28px;
+	color: #f20505; /* Establece el color de texto a un tono dorado */
+	font-weight: bold; /* Establece el peso de la fuente en negrita */
+}
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+	.container {
+		padding: 10px; /* Reduce el espacio de relleno a 10px en pantallas pequeñas */
+	}
+	.menu-item {
+		flex-direction: column; /* Cambia la direccion de los elementos del menu a columna en pantallas pequeñas */
+	}
+	.menu-item img {
+		margin-bottom: 10px; /* Añade un margen inferior de 10px a las imagenes en pantallas pequeñas */
+		width: 100%; /* Ajusta el ancho de las imagenes al 100% del contenedor en pantallas pequeñas */
+		height: auto; /* Ajusta la altura de las imagenes automaticamente en pantallas pequeñas */
+	}
+}
+
+	
+
+
+
+	</style>
+</head>
+
+<body> <!--inicio del cuerpo-->
+    <header><!--referennci a el encabesado del documento-->
+        <nav> <!--para los enlaces de navegacion -->
+        <a href="index.html">INICIO</a><!--enlace de navegacion-->
+        <a href="menu.html">MENU</a><!--enlace de navegacion-->
+        <a href="contacto.html">CONTACTO</a><!--enlace de navegacion-->
+        </nav>
+        </header>
+<br>
+<br>
+<br>
+        <div class="container"><!-- Contenedor principal -->
+
+
+			<div class="pozoles"> <h2><p> <strong>POZOLE VERDE Y BLANCO (POLLO Y PUERCO) </strong></p></h2> </div><br><!-- Div para el título "pozole" -->
+            <div class="menu-item"><!-- Primer elemento del menú -->
+                <img src="../Imagenes/POZOLEMINI2023-06-08 at 5.58.51 PM.jpeg" alt="Pozole">
+                <div>
+                    <h2>Pozole mini</h2><!--titulo del platillo-->
+                    <p>Acompañado de ensalada de zanahoria,cebolla picada, chile rojo en polvo, oregano y limón.</p><!--descripcion del platillo-->
+                    <span class="price">$40.00</span><!--para agregar atributos a una seccion, fineles de estilo precio de platillo-->
+                </div>
+            </div><!--se cierran las diviciones-->
+    
+            <div class="menu-item"><!--segundo elemento del menu-->
+                <img src="../Imagenes/CHICOPOZOLE 2023-06-08 at 5.50.09 PM.jpeg" alt="pozole"><!--imagen del platillo-->
+                <div>
+                    <h2>Pozole chico</h2><!--titulo del platillo-->
+                    <p>Acompañado de ensalada de zanahoria,cebolla picada, chile rojo en polvo, oregano y limón.</p><!--descripcion del platillo-->
+                    <span class="price">$45.00</span>><!--para agregar atributos a una seccion, fineles de estilo precio de platillo-->
+                </div>
+            </div><!--se cierran las diviciones-->
+    
+            <div class="menu-item"><!--elemento 3 del menu-->
+                <img src="../Imagenes/POZOLEMEDIANO2023-06-08 at 4.46.26 PM.jpeg" alt="pozole"><!--imagen del platillo-->
+                <div>
+                    <h2>Pozole mediano</h2><!--titulo del platillo-->
+                    <p>Acompañado de ensalada de zanahoria,cebolla picada, chile rojo en polvo, oregano y limón.</p><!--descripcion del platillo-->
+                    <span class="price">$50.00</span><!--para agregar atributos a una seccion, fineles de estilo precio de platillo-->
+                </div>
+            </div><!--se cierran las diviciones-->
+    
+    
+            <div class="menu-item"><!--elemento 4 del menu-->
+                <img src="../Imagenes/POZOLEGRANDE 2023-06-08 at 4.46.02 PM.jpeg" alt="pozole"><!--imagen del platillo-->
+                <div>
+                    <h2>Pozole grande</h2><!--titulo del platillo-->
+                    <p>Acompañado de ensalada de zanahoria,cebolla picada, chile rojo en polvo, oregano y limón.</p><!--descripcion del platillo-->
+                    <span class="price"> $55.00 </span><!--para agregar atributos a una seccion, fineles de estilo precio de platillo-->
+    
+                </div>
+            </div>
+    
+        </div><!--se cierran las diviciones-->
+    
+
+
+<br>
+<br>
+
+
+
+		<!--botanas-->
+
+		<div class="container">
+			<!-- Contenedor principal -->
+		
+			<div class="botanas"> <h2><p> <strong>Botanas</strong></p></h2> </div><br>
+			<!-- Div para el título "Botanas" -->
+		
+			<div class="menu-item">
+				<!-- Primer elemento -->
+		
+				<img src="../Imagenes/MEDIASANTAROSA 2023-06-08 at 3.33.39 PM.jpeg" alt="1/2 santa rosa">
+				<!-- Imagen del platillo -->
+		
+				<div>
+					<!-- Contenedor de información del platillo -->
+		
+					<h2>1/2 Santa rosa</h2>
+					<!-- Título del platillo-->
+		
+					<p>Acompañado de ensalada de zanahoria, cebolla picada, chile rojo en polvo, orégano y limón.</p>
+					<!-- Descripcion del platillo -->
+		
+					<span class="price">$220.00</span>
+					<!-- Precio del platillo -->
+				</div>
+			</div>
+		
+
+		
+
+      
+		<div class="menu-item"><!--elemento 4 del menu-->
+			<img src="../Imagenes/botana santa rosa2023-06-08 at 4.49.20 PM.jpeg" alt="pozole"><!--imagen del platillo-->
+			<div>
+				<h2>Botana santa rosa</h2><!--titulo del platillo-->
+				<p>Acompañado de ensalada de zanahoria,cebolla picada, chile rojo en polvo, oregano y limón.</p><!--descripcion del platillo-->
+				<span class="price"> $55.00 </span><!--para agregar atributos a una seccion, fineles de estilo precio de platillo-->
+
+			</div>
+		</div>
+
+		<div class="menu-item"><!--elemento 4 del menu-->
+			<img src="../Imagenes/botana mexicana2023-06-01 at 10.27.01 PM.jpeg" alt="pozole"><!--imagen del platillo-->
+			<div>
+				<h2>Botana mexicana</h2><!--titulo del platillo-->
+				<p>Acompañado de ensalada de zanahoria,cebolla picada, chile rojo en polvo, oregano y limón.</p><!--descripcion del platillo-->
+				<span class="price"> $55.00 </span><!--para agregar atributos a una seccion, fineles de estilo precio de platillo-->
+
+			</div>
+		</div>
+
+		<div class="menu-item"><!--elemento 4 del menu-->
+			<img src="../Imagenes/carnes frias 2023-06-01 at 10.27.05 PM.jpeg" alt="pozole"><!--imagen del platillo-->
+			<div>
+				<h2>Botana de carnes frìas</h2><!--titulo del platillo-->
+				<p>Acompañado de ensalada de zanahoria,cebolla picada, chile rojo en polvo, oregano y limón.</p><!--descripcion del platillo-->
+				<span class="price"> $55.00 </span><!--para agregar atributos a una seccion, fineles de estilo precio de platillo-->
+
+			</div>
+		</div>
+
+		<div class="menu-item"><!--elemento 4 del menu-->
+			<img src="../Imagenes/chicharron 2023-06-08 at 3.42.57 PM.jpeg" alt="pozole"><!--imagen del platillo-->
+			<div>
+				<h2>Chicharròn</h2><!--titulo del platillo-->
+				<p>Acompañado de ensalada de zanahoria,cebolla picada, chile rojo en polvo, oregano y limón.</p><!--descripcion del platillo-->
+				<span class="price"> $55.00 </span><!--para agregar atributos a una seccion, fineles de estilo precio de platillo-->
+
+			</div>
+		</div>
+
+		<div class="menu-item"><!--elemento 4 del menu-->
+			<img src="../Imagenes/aguacate2023-06-08 at 3.43.07 PM.jpeg" alt="pozole"><!--imagen del platillo-->
+			<div>
+				<h2>Aguacate</h2><!--titulo del platillo-->
+				<p>Acompañado de ensalada de zanahoria,cebolla picada, chile rojo en polvo, oregano y limón.</p><!--descripcion del platillo-->
+				<span class="price"> $55.00 </span><!--para agregar atributos a una seccion, fineles de estilo precio de platillo-->
+
+			</div>
+		</div>
+
+
+
+		<div class="menu-item"><!--elemento 4 del menu-->
+			<img src="../Imagenes/chiles capones 2023-06-08 at 5.55.07 PM.jpeg" alt="pozole"><!--imagen del platillo-->
+			<div>
+				<h2>Ord. Chiles capones</h2><!--titulo del platillo-->
+				<p>Acompañado de ensalada de zanahoria,cebolla picada, chile rojo en polvo, oregano y limón.</p><!--descripcion del platillo-->
+				<span class="price"> $55.00 </span><!--para agregar atributos a una seccion, fineles de estilo precio de platillo-->
+
+			</div>
+		</div>
+
+		
+		<div class="menu-item"><!--elemento 4 del menu-->
+			<img src="../Imagenes/orden patitas 2023-06-01 at 7.40.42 PM.jpeg" alt="pozole"><!--imagen del platillo-->
+			<div>
+				<h2>Ord. Patitas</h2><!--titulo del platillo-->
+				<p>Acompañado de ensalada de zanahoria,cebolla picada, chile rojo en polvo, oregano y limón.</p><!--descripcion del platillo-->
+				<span class="price"> $55.00 </span><!--para agregar atributos a una seccion, fineles de estilo precio de platillo-->
+
+			</div>
+		</div>
+
+
+
+		<div class="menu-item"><!--elemento 4 del menu-->
+			<img src="../Imagenes/orden patitas 2023-06-01 at 7.40.42 PM.jpeg" alt="pozole"><!--imagen del platillo-->
+			<div>
+				<h2>Ord. Carnitas</h2><!--titulo del platillo-->
+				<p>Acompañado de ensalada de zanahoria,cebolla picada, chile rojo en polvo, oregano y limón.</p><!--descripcion del platillo-->
+				<span class="price"> $55.00 </span><!--para agregar atributos a una seccion, fineles de estilo precio de platillo-->
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+	</div><!--se cierran las diviciones-->
+
+
+
+</body>
+</html>
